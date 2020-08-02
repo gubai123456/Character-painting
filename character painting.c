@@ -11,8 +11,7 @@ int main()
 	int i = 0, caf = 33;
 	FILE *fp ;
 	clock_t stime = 0, ftime = 0;
-	char buf[1920], seat[]="out\\BA (0000).txt", ai[5];	
-	printf("-----Bad Apple ASCII art player-----\nPress Enter to play.\n");
+	char buf[1920], seat[]="out\\BA(0).txt", ai[5];	//out为bmp导出文件夹  BMP文件名为 BA(0),BA(1),BA(3).....
 	getchar();
 	system("cls");
 	
